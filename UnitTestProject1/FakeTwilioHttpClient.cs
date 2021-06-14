@@ -21,7 +21,7 @@ namespace UnitTestProject1
             return response;
         }
 
-        public override Task<Response> MakeRequestAysnc(Request request)
+        public override Task<Response> MakeRequestAsync(Request request)
         {
             return Task.FromResult(this.MakeRequest(request));
         }
